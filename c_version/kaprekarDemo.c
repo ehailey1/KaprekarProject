@@ -1,9 +1,13 @@
 #include<stdlib.h>
 #include<stdio.h>
-
 #include "kaprekarUtils.h"
 
 int main(int argc, char **argv) {
+
+int isKaprekar, n;
+
+printf("Please enter Number:");
+scanf("%lf", n);
 
   if(argc != 2) {
     fprintf(stderr, "Usage: %s n\n", argv[0]);
